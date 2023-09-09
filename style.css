@@ -43,6 +43,17 @@ img{
     padding: 5px;
     text-align: center;
 }
+.currentTime{
+    margin-top: 10px;
+}
+.timer{
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    margin-right: 3px;
+    text-align: center;
+    border-radius: 10px;
+}
 .real-day h6{
     font-size: 1.2rem;
 }
@@ -55,12 +66,13 @@ img{
     align-items: center;
     margin-top: 12px;
 }
-.real-time p{
+.real-time h4{
     background-color: brown;
     color: white;
     padding: 8px;
     margin-right: 3px;
     text-align: center;
+    border-radius: 10px;
 
 }
 .real-time h4{
@@ -119,6 +131,10 @@ img{
         padding: 5px;
         text-align: center;
     }
+    .currentTime h4{
+        color: black;
+        text-align: center;
+    }
     .profile{
         height: 100%;
         line-height: 50px;
@@ -141,14 +157,9 @@ img{
     .hi-emoji{
         font-size: 2.5rem;
     }
-    .real-time h4,p{
+    .real-time h4,span{
         font-size: 1.2rem;
         
-    }
-    .real-time{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
 }
