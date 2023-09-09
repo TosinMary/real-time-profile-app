@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>real-time-profile-app</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="img-section">
+                <img  src="/img/Teev.jpg" alt="TechieTee" data-testId="slackDisplayImage">
+        </div>
+        <div class="container">
+            <div class="timer-container">
+                <div class="real-day">
+                    <h6>Hi there <span class="hi-emoji">👋</span> <br>
+                    Today is <span class="dayOfTheWeek" data-testId="currentDayOfTheWeek"></span>
+                     </h6>
+               </div>
+                <div class="real-time " data-testId="currentUTCTime">
+                    <h4>UTCTime:</h4>
+                    <p class="timer">00:00:00</p>
+                </div>
+                </div>
+                 <!--profile section, get to know me-->
+                 <div class="profile">
+                    <h2 data-testId="slackDisplayImage">Slack Profile Name: TechieTee</h2>
+                    <h4 data-testId="myTrack">Track: FrontEnd Development</h4>
+                    <p>Get the source code for this page <a href="https://github.com/TosinMary/real-time-profile-app" target="_blank" class="source-line" data-testId="githubURL">here</a></p>
+                </div>
+            </div>
+    </div>
+    
+   <script src="index.js"></script>
+</body>
+</html>

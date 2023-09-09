@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: rgb(58, 58, 45);
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-section{
+    width: 50%;
+    padding: 20px 0;
+    
+}
+img{
+    width: 80%;
+    height: 100vh ;
+    border-radius: 50%;
+    box-shadow: 0 0 5px;
+
+}
+.timer-container{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.real-day h6{
+    font-size: 1.2rem;
+}
+.hi-emoji{
+    font-size: 2rem;
+}
+.real-time{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 12px;
+}
+.real-time p{
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    margin-right: 3px;
+    text-align: center;
+
+}
+.real-time h4{
+    margin: 5px;
+}
+.profile{
+    line-height: 60px;
+}
+.profile p a{
+    text-decoration: none;
+}
+.source-line{
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.source-line:hover{
+    background-color: rgb(176, 105, 105);
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 896px) {
+    body{
+        background-color: white;
+    }
+    .main-container{
+        height: 100vh;
+        width: 100%;
+        display: block;
+        margin: 0;
+       
+    }
+    .img-section{
+        width: 100%;
+        background-color: rgb(58, 58, 45);
+        padding: 10px;
+    }
+    img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 50%;
+        
+    }
+    .timer-container{
+        width: 100%;
+        height: 150px;
+        background-color: white;
+        color: black;
+        border-radius: 0px;
+        box-shadow: none;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+    .profile{
+        height: 100%;
+        line-height: 50px;
+        text-align: center;
+        padding: 10px;
+        background-color: white;
+        color: black;
+    }
+    .profile h2{
+        font-size: 1.5rem;
+    }
+    .profile h4, p{
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+
+    .real-day h6{
+        font-size: 1.5rem;
+    }
+    .hi-emoji{
+        font-size: 2.5rem;
+    }
+    .real-time h4,p{
+        font-size: 1.2rem;
+        
+    }
+    .real-time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+    
+
+    
